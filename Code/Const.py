@@ -7,6 +7,7 @@ COR_VERDE = (30, 92, 17)
 #M
 MENU_OPTION = ("Novo Jogo",
                 "Melhor Pontuação",
+                "Controles",
                 "Sair do Jogo")
 
 #W

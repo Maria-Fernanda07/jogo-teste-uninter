@@ -26,7 +26,7 @@ class Menu:
             self.menu_text(text_size=50, text="Maluca", text_color=(COR_AZUL), text_center_pos=((WIN_WIDTH / 2), 100))
 
             for i in range(len(MENU_OPTION)):
-                self.menu_text(text_size = 30, text = MENU_OPTION[i], text_color = (COR_VERDE), text_center_pos = ((WIN_WIDTH / 2), 180 + 40 * i))
+                self.menu_text(text_size = 30, text = MENU_OPTION[i], text_color = (COR_VERDE), text_center_pos = ((WIN_WIDTH / 2), 160 + 40 * i))
 
             pygame.display.flip()
 
